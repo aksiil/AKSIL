@@ -71,7 +71,7 @@ RunAKSIL:write([[
 cd $HOME/AKSIL
 token="]]..database:get(Server_AKSIL.."Token_AKSIL")..[["
 rm -fr AKSIL.lua
-wget "https://raw.githubusercontent.com/AKSILabas/AKSIL/master/AKSIL.lua"
+wget "https://raw.githubusercontent.com//aksiil/AKSIL/master/AKSIL.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./AKSIL.lua -p PROFILE --bot=$token
